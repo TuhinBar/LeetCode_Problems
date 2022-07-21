@@ -11,7 +11,7 @@ class Solution:
         if not head:
             return None
         
-        # Setting up two pointers, one for the head and one for the tail
+       # Setting up two pointers, starting from the head if slowPtr finds it position it will stop but fastPtr will continue to move forward
         slowPtr,fastPtr=head,head
         # If each pointer finds it destined position, then stop will be true and backtracking for swapping will be done
         stop = False
